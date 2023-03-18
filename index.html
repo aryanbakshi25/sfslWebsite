@@ -8,10 +8,10 @@
     <link rel="icon" href="images/sfslLogo.png">
     <link rel="stylesheet" href="css files/styles.css">
   </head>
+  <!--AT 768px THE NAVBAR COMES OUT OF ITS DIV-->
 <!--MUST MAKE MOBILE NAV SMOOTH-->
 <!--NAV SECTION SHOULD CLOSE AFTER CLICKED ON LIST ELEMENT-->
-<!--MAKE CONTACT SECTION-->
-<!--MAKE WATERMARK LIKE MADE BY WEB DEV AND PUT UR SIGNATURE AS "APPROVED: "-->
+<!--MAKE BACK TO TOP BUTTON WITH POSITION STICKY-->
 <!--FIGURE OUT DEPLOYMENT-->
 <body>
   <div class ="navbar">
@@ -25,17 +25,18 @@
 
         <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
 
-        <ul class="primary-nav">
-          <li class="current"><a href="#home-section-id">Home</a></li>
-          <li><a href="#about-section-id">About</a></li>
-          <li><a href="#leaders-section-id">Leaders</a></li>
-          <li><a href="#gun-violence-section-id">Gun Violence</a></li>
-        </ul>
+          <ul class="primary-nav">
+            <li class="current"><a href="#home-section-id">Home</a></li>
+            <li><a href="#about-section-id">About</a></li>
+            <li><a href="#leaders-section-id">Leaders</a></li>
+            <li><a href="#gun-violence-section-id">Gun Violence</a></li>
+          </ul>
 
-        <ul class="secondary-nav">
-          <li><a href="#">Contact</a></li> <!--Still need to put contacts page up-->
-          <li class="apply-cta"><a href="#application-section-id">Apply</a></li>
-        </ul>
+          <ul class="secondary-nav">
+            <li><a href="#contact-section-id">Contact</a></li> <!--Still need to put contacts page up-->
+            <li class="apply-cta"><a href="#application-section-id">Apply</a></li>
+          </ul>
+        
       </nav>
     </div>
   </div>
@@ -171,8 +172,30 @@
     <div class="container">
       <h2>Apply Now</h2>
       <p>You must first complete the application below. Following your acceptance, we will give you our Starter Guide, which will provide you with step-by-step instructions on how to get started. As an SFSL Chapter Leader, it is your responsibility to organize community service projects each semester and conduct meetings for your members at least once a month. These gatherings should include conversations about community. service project planning.</p>
-        <a href="https://docs.google.com/document/d/14zKfO7spVDvfnY5pGSqXE-DKIZPXzviildvaEmPWIM0/edit?usp=sharing">Starter Guide Doc</a>
+        <a href="https://docs.google.com/document/d/14zKfO7spVDvfnY5pGSqXE-DKIZPXzviildvaEmPWIM0/edit?usp=sharing" target="_blank">Starter Guide Doc</a>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6mrfmt4yot2fW9N-zKxy0EXy0xlyYxMJ_9h6CJ85aJrrYpA/viewform?embedded=true" width="640" height="3074" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+  </section>
+
+  <section id="contact-section-id" class="contact-section">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact-methods">
+        <div class="insta-contact">
+          <img src="images/insta-icon-for-sfsl.svg" alt="instagram icon">
+          <a href="https://www.instagram.com/studentsforsaferlearning/" target="_blank">@studentsforsaferlearning</a>
+        </div>
+        <div class="email-contact">
+          <img src="images/email-icon-for-sfsl.svg" alt="email icon">
+          <a href="mailto:studentsfor@saferlearning.org">studentsfor@saferlearning.org</a>
+        </div>
+      </div>
+
+      <div class="cwd">
+        <img src="images/web-dev-monitor-logo.png" alt="Carmel Web Development Monitor Logo">
+        <p>Developed and Hosted by <b class="cwd-bold">Carmel Web Development</b></p>
+        <img src="images/handwriting 5.png" alt="signature of approval">
+      </div>
     </div>
   </section>
 

@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: #F2F2F2;
+  background: #f2f2f2;
   margin: 0;
   font-family: "Poppins";
 }
@@ -63,7 +63,7 @@ section {
   margin-top: 0.2em;
 }
 .left-col .primary-cta {
-  background-color: #20272E;
+  background-color: #20272e;
   color: white;
   text-decoration: none;
   padding: 0.6em 1.3em;
@@ -83,12 +83,12 @@ section {
 }
 
 .watch-video-cta {
-  background-color: #F2F2F2;
-  color: #20272E;
+  background-color: #f2f2f2;
+  color: #20272e;
   text-decoration: none;
   padding: 0.6em 1.3em;
   font-size: 1.4em;
-  border: 3px solid #20272E;
+  border: 3px solid #20272e;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
@@ -115,12 +115,12 @@ section {
 .logo2 {
   max-width: 80%;
   margin-top: 3em;
-  border: 3.5px solid #3F5199;
+  border: 3.5px solid #3f5199;
   border-radius: 15px;
 }
 
 section.home-section {
-  background: #20272E;
+  background: #20272e;
   color: white;
   text-align: center;
 }
@@ -212,7 +212,7 @@ section.home-section img {
 }
 
 .indiana-gun-law-stats img {
-  border: 5px solid #E9454E;
+  border: 5px solid #e9454e;
   border-radius: 15px;
   max-width: 100%;
   height: auto;
@@ -239,7 +239,6 @@ section.home-section img {
 }
 
 nav.mobile-menu {
-  transition: all 2s linear;
   display: block;
 }
 
@@ -253,7 +252,7 @@ nav {
   width: 66%;
   right: 0;
   top: 0;
-  background: #20272E;
+  background: #20272e;
   height: 100vh;
   padding: 1em;
 }
@@ -281,8 +280,54 @@ nav li a:hover {
   cursor: pointer;
 }
 
+#contact-section-id {
+  background: #191d21;
+  color: white;
+}
+#contact-section-id .container h2 {
+  text-align: center;
+}
+#contact-section-id .container .contact-methods {
+  display: block;
+}
+#contact-section-id .container .contact-methods .insta-contact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+#contact-section-id .container .contact-methods .insta-contact a {
+  padding-left: 0.2em;
+  color: white;
+  align-self: center;
+}
+#contact-section-id .container .contact-methods .email-contact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#contact-section-id .container .contact-methods .email-contact a {
+  padding-left: 0.4em;
+  color: white;
+  align-self: center;
+}
+#contact-section-id .container .cwd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6em;
+}
+#contact-section-id .container .cwd p {
+  opacity: 60%;
+}
+#contact-section-id .container .cwd img {
+  padding: 1em;
+  max-width: 47px;
+}
+
 @media only screen and (min-width: 768px) {
-  .mobile-menu, .mobile-menu-exit {
+  .mobile-menu,
+  .mobile-menu-exit {
     display: none;
   }
   .navbar .container {
@@ -311,16 +356,23 @@ nav li a:hover {
     margin-right: 10em;
   }
   .navbar nav li.apply-cta a {
-    color: #3F5199;
-    border: 3px solid #3F5199;
+    color: #3f5199;
+    border: 3px solid #3f5199;
     font-weight: bold;
     border-radius: 5em;
     margin-top: -0.2;
     transition: all 0.35s;
   }
   .navbar nav li.apply-cta a:hover {
-    background: #3F5199;
+    background: #3f5199;
     color: white;
+  }
+  .contact-methods {
+    display: flex !important;
+    justify-content: center;
+  }
+  .contact-methods .email-contact {
+    padding: 1em;
   }
 }
 @media only screen and (min-width: 1080px) {
