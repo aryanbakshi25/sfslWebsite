@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #cce0f4;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+
+  .logo1 {
+    img {
+      border-radius: 10em;
+      width: 80px; // or any desired value
+      height: auto;
+    }
+  }
+  nav {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    place-content: space-between;
+  }
+
+  .mobile-menu {
+    cursor: pointer;
+    
+  }
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col {
+  .subhead {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: 0.3em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-top: 0.2em;
+  }
+
+  .primary-cta {
+    background-color: #20272e;
+    color: white;
+    text-decoration: none;
+    padding: 0.6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.35s;
+
+    &:hover {
+      // background-color: #52687c;
+      background-color: #e56868;
+    }
+    // position: relative;
+    // transition: all 0.35s;
+    // outline: none;
+  }
+}
+// .main__btn a {
+//   position: relative;
+//   z-index: 2;
+//   color: #fff;
+//   text-decoration: none;
+// }
+
+// .main__btn:after{
+//   position: absolute;
+//   content: '';
+//   top: 0;
+//   left: 0;
+//   width: 0;
+//   height: 100%;
+//   background: #4837ff;
+//   transition: all 0.35s;
+//   border-radius: 4x;
+// }
+
+// .main__btn:hover{
+//   color: #fff;
+// }
+
+// .main__btn:hover:after{
+//   width: 100%;
+// }
+
+.hilite-article {
+  a {
+    font-size: 1.2em;
+    color: #92bad8;
+  }
+}
+
+.watch-video-cta {
+  // display: block;
+  // margin: .7em;
+  // color: #6a9bc1;
+  background-color: #f2f2f2;
+  color: #20272e;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border: 3px solid #20272e;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.35s;
+
+  &:hover {
+    background: #7da4cc;
+  }
+  img {
+    margin-right: 0.5em;
+  }
+}
+.top-right-home-img-world-peace {
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+}
+
+.bottom-left-home-img-gsfp {
+  img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 2em;
+  }
+}
+
+.logo2 {
+  max-width: 80%;
+  margin-top: 3em;
+  border: 3.5px solid #3f5199;
+  border-radius: 15px;
+}
+
+section.home-section {
+  background: #20272e;
+  color: white;
+  text-align: center;
+  .btr-goal {
+    margin-top: 16px;
+    margin-bottom: 3em;
+  }
+  img {
+    border-radius: 15px;
+  }
+}
+
+.about-section {
+  text-align: center;
+
+  h2 {
+    font-size: 2em;
+  }
+}
+.gun-violence-article-link:hover {
+  color: #609ac6;
+}
+.leaders-section {
+  background: var(--primary-color);
+  h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 4em;
+  }
+
+  li {
+    background: #82b2e2;
+    text-align: center;
+    border-radius: 1em;
+
+    img {
+      margin-top: -4em;
+      width: 5em;
+      height: 5em;
+      border: 4px solid #5c8ec1;
+      border-radius: 50%;
+    }
+    padding: 1.5em;
+    margin-bottom: 5em;
+  }
+}
+
+.top-side-heading-what-is-gun-violence {
+  text-align: center;
+}
+
+.bottom-side-gun-violence-blurb {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.gun-stats {
+  margin-bottom: 4em;
+  // margin-left: 5em;
+
+  // .bottom-left-stat-4point6{
+  //   margin-top: -2em;
+  // }
+
+  // .bottom-right-stat-68percent{
+  //   margin-top: 2em;
+  // }
+  .left-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      padding: 1em 0.5em 1em 0.5em;
+      border: 5px solid black;
+      border-radius: 15px;
+      max-width: 80%;
+      height: auto;
+    }
+  }
+
+  .right-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      padding: 1em 0.5em 1em 0.5em;
+      border: 5px solid black;
+      border-radius: 15px;
+      max-width: 80%;
+      height: auto;
+    }
+  }
+}
+
+.indiana-gun-laws-excerpt {
+  text-align: center;
+  b {
+    font-size: 20px;
+  }
+  margin-bottom: 1em;
+}
+
+.indiana-gun-law-stats {
+  img {
+    border: 5px solid #e9454e;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.application-section {
+  background: #424c55;
+  text-align: center;
+  align-items: center;
+  color: white;
+
+  a {
+    color: #79b8e9;
+  }
+
+  iframe {
+    margin-top: 3em;
+    width: 100%;
+    height: 500px;
+  }
+}
+.starter-guide-doc {
+  width: 100%;
+  height: 500px;
+}
+
+nav.mobile-menu {
+  display: block;
+}
+
+.secondary-nav {
+  align-items: center;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #20272e;
+  height: 100vh;
+  padding: 1em;
+
+  ul.primary-nav {
+    align-items: center;
+    margin-top: 5em;
+  }
+
+  li {
+    a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 0.5em;
+      font-size: 1.3em;
+      text-align: right;
+      transition: all 0.35s;
+
+      &:hover {
+        font-weight: bold;
+        color: #e56868;
+      }
+    }
+  }
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+#contact-section-id{
+background: #191d21;
+color: white;
+  .container{
+    h2{
+      text-align: center;
+    }
+
+    .contact-methods{
+      display: block;
+      .insta-contact{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        a{
+          padding-left: .2em;
+          color: white;
+          align-self: center;
+        }
+      }
+
+      .email-contact{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        a{
+          padding-left: .4em;
+          color: white;
+          align-self: center;
+        }
+      }
+    }
+
+    .cwd{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 6em;
+      
+
+      p{
+        opacity: 60%;
+      }
+
+      img{
+        padding: 1em;
+        max-width: 47px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu,
+  .mobile-menu-exit {
+    display: none;
+  }
+
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // grid-template-columns: 180px auto;
+  }
+
+  .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+
+    ul {
+      display: flex;
+    }
+
+    a {
+      color: black;
+      font-size: 1em;
+      padding: 0.1em 1em;
+    }
+
+    ul.primary-nav {
+      margin: 0;
+      // margin-right: 10em;
+      margin-left: 5em;
+    }
+
+    li.apply-cta a {
+      color: #3f5199;
+      border: 3px solid #3f5199;
+      font-weight: bold;
+      border-radius: 5em;
+      margin-top: -0.2;
+      transition: all 0.35s;
+
+      &:hover {
+        background: #3f5199;
+        color: white;
+      }
+    }
+  }
+
+  .contact-methods{
+    display: flex !important;
+    justify-content: center;
+    // align-items: center;
+    
+    .email-contact{
+      padding: 1em;
+    }
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .home-section {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      .home-section-container {
+        position: relative;
+        width: 100%;
+      }
+
+      .home-section-container {
+        margin-right: 3em;
+
+        .top-left-home-mission-statement {
+          margin-bottom: 1.2em;
+        }
+
+        .top-right-home-img-world-peace {
+          margin-bottom: 2em;
+        }
+
+        .btr-goal {
+          margin-bottom: 0;
+        }
+        margin-bottom: 5em;
+      }
+
+      .bottom-left-home-img-gsfp {
+        margin: 1em 1em 0 1em;
+      }
+      .no-margin-top {
+        margin-top: 0;
+      }
+    }
+  }
+
+  section {
+    padding: 10em 4em;
+  }
+  .top-side-heading-what-is-gun-violence {
+    h2 {
+      font-size: 2em;
+    }
+  }
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    .left-col {
+      margin: 3em 3em 0 5em;
+
+      h1 {
+        font-size: 3em;
+        width: 90%;
+      }
+    }
+  }
+
+  .logo2 {
+    width: 30%;
+  }
+
+  .hero-cta {
+    display: flex;
+  }
+
+  .primary-cta {
+    margin-right: 1em;
+  }
+
+  .leaders-section ul {
+    display: flex;
+
+    .yezenia-and-carolyn {
+      margin-right: 3em;
+
+      .yezenia-only {
+        margin-bottom: 3em;
+      }
+    }
+
+    .siri-and-grace {
+      .siri-only {
+        margin-bottom: 4.5em;
+      }
+    }
+
+    // li{
+    //   margin: 0 1em;
+    // }
+  }
+}
